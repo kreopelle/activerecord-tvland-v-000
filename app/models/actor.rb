@@ -16,4 +16,5 @@ class Actor < ActiveRecord::Base
 end
 
 #Character.find_by(actor_id: self.id).name
+#Character.find_by(actor_id: self.id).show.name
 # perhaps find_all? SELECT * FROM characters WHERE actor_id = self.id
