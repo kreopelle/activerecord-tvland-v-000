@@ -10,6 +10,7 @@ class Actor < ActiveRecord::Base
     binding.pry
     self.characters.each do |character|
       puts "#{character.name} - #{character.show.name}"
+    end 
   end
 
 end
