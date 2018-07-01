@@ -16,3 +16,4 @@ class Actor < ActiveRecord::Base
 end
 
 #Character.find_by(actor_id: self.id).name
+# perhaps find_all? 
