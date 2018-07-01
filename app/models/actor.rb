@@ -14,3 +14,5 @@ class Actor < ActiveRecord::Base
   end
 
 end
+
+#Character.find_by(actor_id: self.id).name
